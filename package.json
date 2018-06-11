@@ -1,12 +1,22 @@
 {
-  "name": "myapp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "prime-oauth",
+  "version": "0.1.0",
+  "description": "Prime OAUth redirector",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcgov/prime-oauth.git"
+  },
+  "homepage": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install --save",
+    "start": "node $NODE_DEBUG_OPTION index.js server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
