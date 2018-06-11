@@ -86,12 +86,12 @@
                   }
                 }
               }
-            ]
+            ],
             "dnsPolicy": "ClusterFirst",
             "restartPolicy": "Always",
             "securityContext": {
             },
-            "terminationGracePeriodSeconds": 30,
+            "terminationGracePeriodSeconds": 30
           }
         },
         "test": false,
@@ -190,7 +190,6 @@
       "name": "APPLICATION_DOMAIN",
       "value": "maximus-prime-oauth-dev.pathfinder.gov.bc.ca"
     },
-
     {
       "description": "The namespace where to get the above image name",
       "displayName": "Image Namespace",
