@@ -5,7 +5,7 @@ var http = require('http');
 var url = require('url');
 const querystring = require('querystring');
 
-var port = 80;
+var port = 7000;
 const pageTitle = 'OAUTH Authentication POC';
 var createTokenURL = 'http://vs-dapp081:7777/oauth2/rest/authz?response_type=code&client_id=oauthpoc&domain=DefaultDomain&scope=ResServer1.scope1&redirect_uri=http://localhost/home/';
 //var validateTokenURL = 'http://vs-dapp081:7777/oauth2/rest/authz?accessToken=';
