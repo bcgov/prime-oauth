@@ -3,7 +3,7 @@
   "apiVersion": "v1",
   "metadata": {
     "name": "prime-oauth",
-    "namespace": "gcpe-mygovbc-msp-tools",
+    "namespace": "maximus-prime-tools",
     "creationTimestamp": null
   },
   "objects": [
@@ -74,7 +74,7 @@
       "displayName": "GIT Source Repo URL",
       "description": "A GIT URL to your source code.",
       "required": true,
-      "value": "https://github.com/bcgov/Splunk-Forwarder.git"
+      "value": "https://github.com/bcgov/prime-oauth.git"
     },
     {
       "name": "GIT_REFERENCE",

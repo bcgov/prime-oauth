@@ -262,7 +262,7 @@
       "description": "The exposed hostname that will route to the service, e.g., myappname.pathfinder.gov.bc.ca, if left blank a value will be defaulted.",
       "displayName": "Application Hostname",
       "name": "APPLICATION_DOMAIN",
-      "value": "gcpe-mygovbc-prime-oauth-dev.pathfinder.gov.bc.ca"
+      "value": "maximus-prime-oauth-dev.pathfinder.gov.bc.ca"
     },
 
     {
@@ -270,7 +270,7 @@
       "displayName": "Image Namespace",
       "name": "IMAGE_NAMESPACE",
       "required": true,
-      "value": "gcpe-mygovbc-msp-tools"
+      "value": "maximus-prime-tools"
     },
     {
       "description": "The TAG name for this environment, e.g., dev, test, prod",
@@ -334,14 +334,14 @@
       "value": "false"
     },
     {
-      "description": "The URL of the remote Splunk Server",
+      "description": "The URL of the remote Prime OAuth",
       "displayName": "SPLUNK_URL",
       "name": "SPLUNK_URL",
       "required": true,
       "value": "https://host:port/service"
     },
     {
-      "description": "How many times to retry the remote Splunk Server?",
+      "description": "How many times to retry the remote Prime OAuth Server?",
       "displayName": "RETRY_COUNT",
       "name": "RETRY_COUNT",
       "required": true,
